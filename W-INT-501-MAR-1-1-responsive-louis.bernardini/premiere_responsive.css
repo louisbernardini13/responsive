@@ -1,0 +1,174 @@
+body {
+    background-color: rgb(204, 255, 255);
+    line-height: 22px;
+}
+#reseaux {
+    display: inline-block;
+}
+nav {
+    background-color: rgb(154, 153, 255);
+    border: 2px solid black;
+}
+#navText {
+    display: inline-block;
+}
+nav ul {
+    list-style: none;
+}
+#whiteBg {
+    background-color: #fff;
+    border: 2px solid black;
+}
+.cardLogo {
+    display: inline-block;
+    background-color: rgb(154, 153, 255);
+}
+a {
+    text-decoration: none;
+    color: red;
+}
+.pays {
+    border: 0.5px solid grey;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#bouton {
+    background-color: rgb(131, 174, 108);
+    color: #fff;
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+#whyUs {
+    display: inline-block;
+}
+footer {
+    background-color: rgb(154, 153, 255);
+    border-top: 2px solid black;
+}
+footer ul {
+    list-style: none;
+}
+#footerTxt{
+    display: flex;
+}
+#copyright {
+    color: #646464;
+}
+.cardLogo p {
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Responsive */
+
+@media only screen and (min-device-width: 0px) and (max-device-width: 305px) {
+    body {
+        /*overflow-x: hidden;*/
+    }
+    nav {
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+    #navText {
+        margin-left: -37px;
+    }
+    #navLogo {
+        size: 100%;
+    }
+    .navLine {
+        width: 298px;
+        position: relative;
+        left: -1px;
+    }
+    #whiteBg {
+        margin-left: -10px;
+        margin-right: -10px;
+        padding-left: -10px;
+        height: 1675px;
+    }
+    footer {
+        margin-left: -10px;
+        margin-right: -10px;
+        margin-bottom: -30px;
+    }
+    .cardLogo {
+        width: 110%;
+        border: 2px solid black;
+    }
+    div#imgDefile img {
+        display: inline-block;
+        max-width: 100%;
+    }
+    #france {
+        width: 260px;
+        height: 117px;
+        border: 0.1px solid #646464;
+        border-radius: 2px;
+        position: relative;
+        top: 5%;
+        left: -3.4%;
+    }
+    .bordureDest {
+        position: absolute;
+        left: 5.6%;
+    }
+    .destImg {
+        position: absolute;
+        top: 2%;
+        left: 1.5%;
+    }
+    #nomFrance {
+        font-weight: bold;
+        position: absolute;
+        top: 83%;
+        left: -3.4%;
+    }
+    #bresil {
+        display: none;
+    }
+    #algerie {
+        display: none;
+    }
+    .cardLogo {
+        width: 100%;
+        margin-left: 1px;
+        border-right-style: none;
+        border-left-style: none;
+    }
+    .cardImg {
+        position: relative;
+        left: 6%;
+        margin-top: 5%;
+    }
+    .cardText {
+        margin-left: 10px;
+        color: #646464;
+    }
+    .textRight {
+        position: relative;
+        float: right;
+        right: 5%;
+        left: -15%;
+        width: 120px;
+
+    }
+    #whyUs {
+        position: relative;
+    }
+    .logoBot {
+        border: 4px solid black;
+    }
+    .textBot {
+        
+    }
+    .AUline {
+        width: 298px;
+        position: relative;
+        left: -6px;
+    }
+}
